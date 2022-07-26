@@ -1,0 +1,62 @@
+body{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  hr{
+    height: 2px;
+    background-color: black;
+  }
+  .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin-top: -0.6rem;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .buttons{
+    margin-bottom: 3rem;
+  }
+  
+  #textData {
+    outline: none;
+  }
+  #blue{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #black{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #yellow{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #green{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+  }
