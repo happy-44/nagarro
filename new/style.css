@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+}
+
+form{
+    position: relative;
+}
+.one{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+#myForm{
+    height: 83vh;
+    width: 50vw;
+    background-color: pink;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+#myForm input{
+    width: 30rem;
+}
+#myForm button{
+    margin-left: auto;
+}
+#myForm label{
+    text-align: center;
+}
+#myForm #msg{
+    height: 8rem;
+}
+#btn{
+    margin-top: 1rem;
+}
